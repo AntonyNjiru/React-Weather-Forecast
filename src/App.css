@@ -1,0 +1,114 @@
+body {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  background: #f3f0f0;
+  padding: 20px;
+  color: #333;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #1404fa;
+}
+
+form {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  padding: 10px;
+  border: 2px solid #000000;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  flex-grow: 1;
+}
+
+input:focus {
+  border-color: #0056b3;
+}
+
+button {
+  padding: 10px 20px;
+  border: 2px solid #007bff;
+  border-radius: 0 5px 5px 0;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #000000;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+.app {
+  text-align: center;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.light-mode {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.dark-mode {
+  background-color: #333;
+  color: #f0f0f0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.toggle-btn {
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  background-color: #003cff;
+  color: white;
+  border-radius: 5px;
+}
+
+#favorites {
+  margin-top: 20px;
+}
+
+#favorites h2 {
+  margin-bottom: 10px;
+}
+
+#favorites ul {
+  list-style: none;
+  padding: 0;
+}
+
+#favorites li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #6d3030;
+  margin-bottom: 5px;
+}
+
+#favorites li button {
+  background-color: #0042f8;
+  color: rgb(243, 243, 243);
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+#favorites li button:hover {
+  background-color: #050404;
+}
